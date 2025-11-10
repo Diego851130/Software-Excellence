@@ -30,7 +30,7 @@
   --title-font : 'Proxima Nova Rg', sans-serif;
 
   /*  Tamaños  */
-  --header-height     : 3rem;
+  --header-height     : 7rem;
   --section-spacing   : 4rem;
   --block-spacing     : 2rem;
   --body-line-height  : 1.6;
@@ -65,7 +65,7 @@
 
   /*  Variables de tamaño en desktop  */
   :root {
-    --header-height         : 4rem;
+    --header-height         : 9rem;
     --section-spacing       : 8rem;
     --block-spacing         : 4rem;
     --h1-font-size          : 3rem;
@@ -237,14 +237,16 @@ h4 {
   margin-left : auto;
 }
 
-.main-header img {
-  height : 2.5rem;
+.main-header .brand-logo {
+  height : 6.5rem;
+  width  : auto;
 }
 
 @media screen and (min-width: 1024px) {
 
-  .main-header img {
-    height : 4rem;
+  .main-header .brand-logo {
+    height : 8.5rem;
+    width  : auto;
   }
 
 }
